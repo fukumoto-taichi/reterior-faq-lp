@@ -24,7 +24,7 @@ const PopFlow = ({ titleColor, stepColor, stepBgColor, borderColor, popFlowData 
             >
               {index !== popFlowData.length - 1 ? (
                 <span
-                  className="box-border absolute top-full left-1/2 transform -translate-x-1/2"
+                  className="box-border absolute left-1/2 transform -translate-x-1/2 top-[101%]"
                   style={{
                     border: 'solid transparent',
                     borderWidth: '20px',
