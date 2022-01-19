@@ -1,5 +1,7 @@
 import Document, { DocumentContext, Head, Html, Main, NextScript } from 'next/document';
 
+import { APP_FAVICON } from '@/lib/const';
+
 class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {
     const initialProps = await Document.getInitialProps(ctx);
@@ -11,6 +13,7 @@ class MyDocument extends Document {
     return (
       <Html lang="ja" dir="ltr">
         <Head>
+          <link rel="icon" type="image/png" sizes="32x32" href={APP_FAVICON} />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
           <link

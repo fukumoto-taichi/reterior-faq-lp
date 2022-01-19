@@ -2,15 +2,12 @@ import NextHeadSeo from 'next-head-seo';
 
 import Footer from '@/components/uiGroup/Footer';
 import Header from '@/components/uiGroup/Header';
-
-////////////////////////////////////////////////////////////////////////////////////////////////////
-// サイトごとに設定値を変える
-const APP_NAME = 'リテリア Font Picker';
-const APP_ROOT_URL = 'https://reterior.jp';
-const APP_DEFAULT_DESCRIPTION =
-  '「Shopifyでも日本語フォントを使いたい...」 その悩みを解消できるのが『リテリア Font Picker』です。コード編集なしで日本語フォントを使用することが可能です！';
-const APP_DEFAULT_OG_IMAGE_PATH = '/reterior_ogp.png';
-////////////////////////////////////////////////////////////////////////////////////////////////////
+import {
+  APP_NAME,
+  APP_ROOT_URL,
+  APP_DEFAULT_DESCRIPTION,
+  APP_DEFAULT_OG_IMAGE_PATH,
+} from '@/lib/const';
 
 // prop types
 type LayoutProps = {

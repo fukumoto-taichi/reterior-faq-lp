@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 import Container from '@/components/layout/Container';
+import { APP_FAVICON, APP_NAME } from '@/lib/const';
 
 const headerLinkList = [
   { title: 'ホーム', link: '/' },
@@ -23,8 +24,11 @@ const Header = () => {
       <Container className="flex justify-between items-center">
         {/* ロゴ */}
         <Link href="/">
-          <a>
-            <Image src="/reterior_logo_alphabet.svg" width={120} height={60} alt="vercel" />
+          <a className="flex items-center space-x-2">
+            <div className="flex rounded-lg border">
+              <Image src={APP_FAVICON} width={48} height={48} alt={`${APP_NAME}のロゴ`} />
+            </div>
+            <span className="text-base md:text-xl font-bold">{APP_NAME}</span>
           </a>
         </Link>
 

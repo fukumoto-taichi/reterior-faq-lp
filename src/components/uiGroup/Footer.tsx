@@ -37,7 +37,7 @@ const Footer = () => {
             </ol>
           </nav>
         </div>
-        <small className="block mt-10 text-center md:text-right">&copy; 2021 UnReact</small>
+        <small className="block mt-10 text-center md:text-right">&copy; 2022 reterior</small>
       </Container>
     </footer>
   );
