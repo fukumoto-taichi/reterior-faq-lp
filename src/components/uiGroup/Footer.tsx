@@ -4,10 +4,10 @@ import Link from 'next/link';
 import Container from '@/components/layout/Container';
 
 const footerLinkList = [
-  { title: 'ホーム', link: '/' },
-  { title: 'このサイトについて', link: '/' },
-  { title: 'お問い合わせ', link: '/' },
-  { title: 'プライバシーポリシー', link: '/' },
+  { title: 'ホーム', link: '/#top' },
+  { title: 'リテリアについて', link: 'https://reterior.jp' },
+  { title: 'お問い合わせ', link: 'https://reterior.jp/contact' },
+  { title: 'プライバシーポリシー', link: 'https://reterior.jp/privacy-policy' },
 ];
 
 const Footer = () => {
@@ -18,7 +18,7 @@ const Footer = () => {
           {/* ロゴ */}
           <Link href="/">
             <a>
-              <Image src="/vercel.svg" width={120} height={60} alt="vercel" />
+              <Image src="/reterior_logo_alphabet.svg" width={120} height={60} alt="vercel" />
             </a>
           </Link>
 

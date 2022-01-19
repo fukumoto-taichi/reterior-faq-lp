@@ -8,7 +8,7 @@ module.exports = {
       // スプレッドで展開している前に、メインとしたいフォント名を追加する
       // フォント名にスペースがある場合は、'Noto\\ Sans\\ JP'のように \ (バックスラッシュ)でエスケープする
       // Serif 体がメインの場合は、 `...defaultTheme.fontFamily.serif` を展開する
-      ja: [...defaultTheme.fontFamily.sans],
+      ja: ['Zen\\ Kaku\\ Gothic\\ New', ...defaultTheme.fontFamily.sans],
       en: [...defaultTheme.fontFamily.sans],
     },
     extend: {
@@ -20,23 +20,23 @@ module.exports = {
         theme: {
           light: '#ffffff',
           medium: '#cccccc',
-          DEFAULT: '#242424',
+          DEFAULT: '#444444',
           dark: '#111111',
         },
         // メインカラー
         primary: {
           // light: '',
           // medium: '',
-          DEFAULT: '#242424',
+          DEFAULT: '#00F5A0',
           // dark: '',
         },
         // サブカラー
-        // secondary: {
-        //   light: '',
-        //   medium: '',
-        //   DEFAULT: '',
-        //   dark: '',
-        // },
+        secondary: {
+          // light: '',
+          // medium: '',
+          DEFAULT: '#00D9F5',
+          // dark: '',
+        },
         // アクセントカラー
         // accent: {
         //   light: '',

@@ -5,9 +5,8 @@ import { useState } from 'react';
 import Container from '@/components/layout/Container';
 
 const headerLinkList = [
-  { title: 'Home', link: '/' },
-  { title: 'About', link: '/' },
-  { title: 'Contact', link: '/' },
+  { title: 'ホーム', link: '/' },
+  { title: 'お問い合わせ', link: 'https://reterior.jp/contact' },
 ];
 
 const Header = () => {
@@ -25,7 +24,7 @@ const Header = () => {
         {/* ロゴ */}
         <Link href="/">
           <a>
-            <Image src="/vercel.svg" width={120} height={60} alt="vercel" />
+            <Image src="/reterior_logo_alphabet.svg" width={120} height={60} alt="vercel" />
           </a>
         </Link>
 
@@ -37,7 +36,7 @@ const Header = () => {
                 <Link href={link}>
                   <a>{title}</a>
                 </Link>
-                <span className="block w-full h-[3px] bg-primary duration-300 transform translate-x-[-101%] group-hover:translate-x-0"></span>
+                <span className="block w-full bg-primary duration-300 transform group-hover:translate-x-0 h-[3px] translate-x-[-101%]"></span>
               </li>
             ))}
           </ol>
@@ -53,7 +52,7 @@ const Header = () => {
             }`}
           />
           <span
-            className={`inline-block absolute  h-1 bg-primary duration-300 ${
+            className={`inline-block absolute  h-1 bg-secondary duration-300 ${
               isOpen
                 ? 'top-8 left-4 w-[35%] transform translate-y-[-6px] rotate-45'
                 : 'top-7 left-3 w-1/3'

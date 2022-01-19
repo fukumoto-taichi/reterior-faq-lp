@@ -11,7 +11,12 @@ class MyDocument extends Document {
     return (
       <Html lang="ja" dir="ltr">
         <Head>
-          {/* サイト全体に反映させたいデフォルトの設定を記述する ex) Google Fonts の読み込み */}
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;700&display=swap"
+            rel="stylesheet"
+          />
         </Head>
         <body>
           <Main />
