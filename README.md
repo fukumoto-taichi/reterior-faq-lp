@@ -1,76 +1,6 @@
-# Next.js 開発のテンプレート
-
-Next.js の開発はこのテンプレートをベースに行ってください。
-
-## 環境
-
-`package.json` を参照ください。
-
-# テンプレートの使い方
-
-テンプレートは以下の手順で使用してください。
-
-## 1. `create-next-app` する
-
-`create-next-app` の `--example` オプションを使ってテンプレートからプロジェクトを始めることができます。
-以下のコマンドの `your-app-name` に自分の作りたいプロジェクト名を入れてコマンドを実行してください。
-
-```shell
-npx create-next-app your-app-name --example https://github.com/UnReacts/next-template-v12
-```
-
-## 2. README.md を書き換える
-
-プロジェクトの内容にあわせて、`README.md`を書き換えます。
-1 番下に `README.md` の参考を載せています。
-
-## 3. プッシュする
-
-`README.md`を書き換えたら、プロジェクトリポジトリにプッシュします。
-あらかじめからのリポジトリを作成しておきます。
-
-```shell
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin <リポジトリのURL>
-git push -u origin main
-```
-
-# ディレクトリ構成について
-
-今回は、すべてのファイルを src に入れています。
-コンポーネントのディレクトリには`layout`・`uiGroup`・`uiParts`を採用しています。
-カスタム型定義は `types` ディレクトリの中にファイルを作成し格納しましょう。
-
-```js
-.
-├── .next
-├── public //画像ファイルを格納する
-├── src
-│   ├── @types //カスタム型定義
-│   ├── components
-│   │   ├── layout //ロジックがない他のコンポーネントをラップするコンポーネント
-│   │   ├── uiGroup //基本的にはここにコンポーネントを作成する
-│   │   └── uiParts //使い回せそうなものだけuiGroupからここに切り出す
-│   ├── hooks //カスタムフックを配置する
-│   ├── lib //モジュール化されたロジックを配置する
-│   ├── pages //ページテンプレートを配置する
-│   │   ├── api
-│   │   │   └──hello.ts //デフォルトのやつ
-│   │   ├── _app.tsx
-│   │   ├── _document.tsx
-│   │   └── index.tsx
-│   └── styles
-...
-```
-
-### `README.md` の参考
-
-````md
 # プロジェクトの概要
 
-このプロジェクトは、~です。
+このリポジトリは「らくらく日本語設定｜リテリア Font Picker」の LP です。
 
 # 開発に参加するまでの流れ
 
@@ -103,4 +33,3 @@ npm install
 ```shell
 npm run dev
 ```
-````
