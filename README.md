@@ -37,7 +37,7 @@ npm run dev
 # アプリ LP の雛形として利用する
 
 プルすることでアプリ LP の雛形として利用することができます。
-`next-tempalte-v12` から作成しています。Next.js v12 と Tailwind CSS v3 の構成です。
+`next-template-v12` から作成しています。Next.js v12 と Tailwind CSS v3 の構成です。
 
 ```shell
 mkdir your-app-lp
@@ -61,9 +61,9 @@ export const APP_FAVICON = '/ja-font-app-icon_512x512.png';
 ```
 
 - `APP_NAME`: アプリの名前を入れてください。ヘッダーのロゴとタイトルのデフォルトとして使われます。
-- `APP_ROOT_URL`: アプリのホストURLを入れてください。OGP の設定などで使用します。
+- `APP_ROOT_URL`: アプリのホスト URL を入れてください。OGP の設定などで使用します。
 - `APP_DEFAULT_DESCRIPTION`: メタディスクリプションを入れてください。デフォルトのメタディスクリプションになります。
 - `APP_DEFAULT_OG_IMAGE_PATH`: OGP の画像パスを入れてください。デフォルトの OGP 画像に設定されます。
-- `APP_FAVICON`: アプリのファビコンの画像パスを入れてください。ファビコンとヘッダーロゴに表示されます。
+- `APP_FAVICON`: アプリのファビコンの画像パスを入れてください。アプリのアイコン画像を使うといいと思います。ファビコンとヘッダーロゴに表示されます。
 
 これらの値は、`<Layout>` コンポーネントの Props でページごとに上書きすることができます。
