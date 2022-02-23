@@ -131,7 +131,7 @@ const Home = (): JSX.Element => {
       <ClameBelt
         title1="リテリア Font Picker の"
         title2="導入はこちらから！"
-        title3="\ 2022年1月リリース！/"
+        title3="\ 2022年2月リリース！/"
         buttonText="今すぐ導入"
         text1=""
         text2=""
