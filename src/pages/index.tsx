@@ -1,12 +1,13 @@
 import Layout from '@/components/layout/Layout';
 import SectionBgColor from '@/components/layout/SectionBgColor';
-import ClameBelt from '@/components/uiGroup/ClameBelt';
+import AppealBelt from '@/components/uiGroup/AppealBelt';
 import FifthFeatures from '@/components/uiGroup/FifthFeatures';
 import FloatImage from '@/components/uiGroup/FloatImage';
 import Hero from '@/components/uiGroup/Hero';
 import ImageWithText from '@/components/uiGroup/ImageWithText';
 import PopFlow from '@/components/uiGroup/PopFlow';
 import SectionTitle from '@/components/uiParts/SectionTitle';
+import { APP_LIST_URL } from '@/lib/const';
 
 const Home = (): JSX.Element => {
   return (
@@ -24,7 +25,7 @@ const Home = (): JSX.Element => {
         buttonText1="\ 2021年1月リリース /"
         buttonText2="今すぐお問い合わせ"
         imgUrl="/hero.svg"
-        link="https://apps.shopify.com/shopify-application-314?locale=ja&surface_detail=%E3%83%AA%E3%83%86%E3%83%AA%E3%82%A2&surface_inter_position=1&surface_intra_position=1&surface_type=search"
+        link={APP_LIST_URL}
         btnColor="#444444"
       />
 
@@ -65,14 +66,14 @@ const Home = (): JSX.Element => {
           text4="日本語フォントでのサイト表示"
           text5="カスタム Web フォントの導入"
         />
-        <ClameBelt
+        <AppealBelt
           title1="リテリア Font Picker の"
           title2="導入はこちらから！"
           title3="\ 2022年1月リリース！/"
           buttonText="今すぐ導入"
           text1=""
           text2=""
-          link="https://apps.shopify.com/shopify-application-314?locale=ja&surface_detail=%E3%83%AA%E3%83%86%E3%83%AA%E3%82%A2&surface_inter_position=1&surface_intra_position=1&surface_type=search"
+          link={APP_LIST_URL}
           bgColor="#666666"
           btnColor="#BC002D"
         />
@@ -128,14 +129,14 @@ const Home = (): JSX.Element => {
         />
       </SectionBgColor>
 
-      <ClameBelt
+      <AppealBelt
         title1="リテリア Font Picker の"
         title2="導入はこちらから！"
         title3="\ 2022年2月リリース！/"
         buttonText="今すぐ導入"
         text1=""
         text2=""
-        link="https://apps.shopify.com/shopify-application-314?locale=ja&surface_detail=%E3%83%AA%E3%83%86%E3%83%AA%E3%82%A2&surface_inter_position=1&surface_intra_position=1&surface_type=search"
+        link={APP_LIST_URL}
         bgColor="#666666"
         btnColor="#BC002D"
       />

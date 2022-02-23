@@ -13,7 +13,7 @@ type Props = {
   btnColor?: string;
 };
 
-const UncommonClameBelt: FC<Props> = ({
+const UncommonAppealBelt: FC<Props> = ({
   link = '/contact',
   title1 = 'サービス内容を',
   title2 = 'もっと詳しく知りたい方へ',
@@ -63,4 +63,4 @@ const UncommonClameBelt: FC<Props> = ({
   );
 };
 
-export default UncommonClameBelt;
+export default UncommonAppealBelt;
