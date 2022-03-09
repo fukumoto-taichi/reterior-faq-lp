@@ -7,7 +7,7 @@ import { APP_FAVICON, APP_NAME } from '@/lib/const';
 
 const headerLinkList = [
   { title: 'ホーム', link: '/' },
-  { title: 'お問い合わせ', link: 'https://reterior.jp/contact' },
+  { title: 'お問い合わせ', link: 'https://www.re-terior.com/contact' },
 ];
 
 const Header = () => {

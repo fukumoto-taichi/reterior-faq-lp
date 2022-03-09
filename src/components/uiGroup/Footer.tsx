@@ -5,9 +5,9 @@ import Container from '@/components/layout/Container';
 
 const footerLinkList = [
   { title: 'ホーム', link: '/#top' },
-  { title: 'リテリアについて', link: 'https://reterior.jp' },
-  { title: 'お問い合わせ', link: 'https://reterior.jp/contact' },
-  { title: 'プライバシーポリシー', link: 'https://reterior.jp/privacy-policy' },
+  { title: 'リテリアについて', link: 'https://www.re-terior.com/' },
+  { title: 'お問い合わせ', link: 'https://www.re-terior.com/contact' },
+  { title: 'プライバシーポリシー', link: 'https://www.re-terior.com/privacy-policy' },
 ];
 
 const Footer = () => {
