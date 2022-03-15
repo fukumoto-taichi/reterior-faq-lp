@@ -1,6 +1,6 @@
 // サイトのメタ情報
 export const APP_NAME = 'リテリア FAQ';
-export const APP_ROOT_URL = 'https://faq.reterior.jp/';
+export const APP_ROOT_URL = 'https://faq.re-terior.com/';
 export const APP_DEFAULT_DESCRIPTION =
   '「自分のShopifyストアにもよくある質問を設置したい...」 その悩みを解消できるのが『リテリア FAQ』です。コード編集なしでサイト内のどこでもFAQセクションを挿入することができます！';
 export const APP_DEFAULT_OG_IMAGE_PATH = '/reterior_ogp.png';
