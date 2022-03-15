@@ -13,132 +13,125 @@ const Home = (): JSX.Element => {
   return (
     <Layout
       path="/"
-      title="らくらく日本語フォント設定｜リテリア Font Picker"
+      title="よくある質問どこでも挿入｜リテリア FAQ"
       noTitleTemplate={true}
       isTopPage={true}
     >
       <Hero
-        title1="らくらく日本語フォント設定"
-        title2="リテリア Font Picker"
-        text1="日本製"
-        text2="Shopifyアプリ"
-        buttonText1="\ 2021年1月リリース /"
+        title1="よくある質問どこでも挿入"
+        title2="リテリア FAQ"
+        text1="日本製 Shopify アプリ"
+        text2="ノーコードで簡単設定"
+        buttonText1="\ 2021年3月リリース /"
         buttonText2="今すぐお問い合わせ"
-        imgUrl="/hero.svg"
+        imgUrl="/reterior-faq_1.svg"
         link={APP_LIST_URL}
         btnColor="#444444"
+        bgColor="bg-gray-100"
       />
 
       <SectionTitle
-        title="Shopifyで日本語フォントを実現"
-        subTitle="Shopify Japanese Font"
-        color="#BC002D"
+        title="リテリア FAQ でよくある質問を実現"
+        subTitle="What's this Shopify App"
+        color="#00D9F5"
       />
       <ImageWithText
         isImageLeft={false}
-        title="らくらく日本語フォント設定｜リテリア Font Picker とは"
-        text="Shopifyアプリである、らくらく日本語フォント設定｜リテリア Font Picker は、Shopify ストアに簡単に日本語フォントを導入するアプリです。日本語フォントを用いて、ストアのブランドを演出することができます。"
+        title="よくある質問どこでも挿入｜ リテリア FAQ とは"
+        text="Shopifyアプリである、『よくある質問どこでも挿入｜ リテリア FAQ』は、Shopify ストアにノーコードでどこでもよくある質問（FAQ）セクションを挿入することができるアプリです。よくある質問をサイト内に表示することで顧客の安心感につながりコンバージョンUPを期待できます。"
         height={500}
         width={700}
-        imgUrl="/reterior-font-picker-1.svg"
+        imgUrl="/reterior-faq_2.svg"
         alt=""
       />
       <ImageWithText
         isImageLeft
-        title="使いたいフォントを選ぶだけ！"
-        text="Shopifyアプリである、らくらく日本語フォント設定｜リテリア Font Picker は、インストール後、わずか30秒で日本語フォントを使うことができます。シンプルな設計で、Shopifyアプリに慣れていない方も安心してご利用いただけます。"
+        title="ノーコードで好きなデザインにカスタマイズできる！"
+        text="Shopifyアプリである、『よくある質問どこでも挿入｜ リテリア FAQ』は、ノーコードで直感的にデザインをカスタマイズすることができます。テーマエディタでリアルタイムでUIを見ながら編集できるので、Shopify に慣れていない方でも安心してご利用いただけます。"
         height={500}
         width={700}
-        imgUrl="/reterior-font-picker-2.svg"
+        imgUrl="/reterior-faq_3.svg"
         alt=""
       />
 
       <SectionBgColor bgColor="bg-gray-100">
-        <SectionTitle
-          title="リテリア Font Picker の特徴"
-          subTitle="Shopify app features"
-          color="#BC002D"
-        />
+        <SectionTitle title="リテリア FAQ の特徴" subTitle="Shopify app features" color="#00D9F5" />
         <FifthFeatures
           text1="日本製のShopifyアプリ"
           text2="日本語の管理画面"
           text3="日本人エンジニアによるサポート"
-          text4="日本語フォントでのサイト表示"
-          text5="カスタム Web フォントの導入"
+          text4="よくある質問(FAQ)をどこでも挿入"
+          text5="ノーコードで簡単カスタマイズ"
         />
         <AppealBelt
-          title1="リテリア Font Picker の"
+          title1="リテリア FAQ の"
           title2="導入はこちらから！"
-          title3="\ 2022年1月リリース！/"
+          title3="\ 2022年3月リリース！/"
           buttonText="今すぐ導入"
           text1=""
           text2=""
           link={APP_LIST_URL}
           bgColor="#666666"
-          btnColor="#BC002D"
+          btnColor="#00D9F5"
         />
       </SectionBgColor>
 
-      <SectionTitle
-        title="リテリア Font Picker について"
-        subTitle="About Shopify app"
-        color="#BC002D"
-      />
+      <SectionTitle title="リテリア FAQ について" subTitle="About Shopify app" color="#00D9F5" />
       <FloatImage
-        imgUrl1="/reterior-font-picker-3.svg"
-        alt1="フォントを選ぶだけのらくらく設定"
-        title1="フォントを選ぶだけのらくらく設定"
-        text1="発売前に商品の情報をちょい出ししたい！ 必要な操作は、アプリを有効化して使用したいフォントを選ぶだけ！ コード編集は一切必要ないので、どなたでも簡単にご利用いただけます。"
-        imgUrl2="/reterior-font-picker-4.svg"
-        alt2="カスタムWebフォントを読み込んで使用可能"
-        title2="カスタムWebフォントを読み込んで使用可能"
-        text2="カスタムWebフォントのインポートタグとフォント設定を貼り付けるだけで、お好みの日本語Webフォントを表示する機能もご用意しております。"
-        imgUrl3="/reterior-font-picker-5.svg"
+        imgUrl1="/reterior-faq_4.svg"
+        alt1="よくある質問（FAQ）をどこでも挿入可能"
+        title1="よくある質問（FAQ）をどこでも挿入可能"
+        text1="TOP、お問い合わせ、商品ページなど...どのページにでもよくある質問（FAQ）セクションを挿入することができます。"
+        imgUrl2="/reterior-faq_5.svg"
+        alt2="ノーコードで簡単カスタマイズ"
+        title2="ノーコードで簡単カスタマイズ"
+        text2="テーマエディタでセクションと同じ操作でデザインをカスタマイズできます。そのため、見た目をリアルタイムで確認しながら編集ができます。"
+        imgUrl3="/reterior-faq_6.svg"
         alt3="日本製 Shopify アプリ"
         title3="日本製 Shopify アプリ"
-        text3="らくらく日本語フォント設定｜リテリア Font Picker は、日本人エンジニアが日本ユーザー向けに設計しています。オール日本語対応です。"
+        text3="リテリア FAQ は、日本人エンジニアが日本ユーザー向けに設計しています。オール日本語対応です。Shopify に不慣れな方でも安心してご利用いただけます。"
       />
 
       <SectionBgColor bgColor="bg-gray-100">
-        <SectionTitle title="アプリ導入の流れ" subTitle="Flow" color="#BC002D" />
+        <SectionTitle title="アプリ導入の流れ" subTitle="Flow" color="#00D9F5" />
         <PopFlow
-          titleColor="#BC002D"
-          stepColor="#BC002D"
+          titleColor="#00D9F5"
+          stepColor="#00D9F5"
           stepBgColor="#ffffff"
-          borderColor="#BC002D"
+          borderColor="#00D9F5"
           popFlowData={[
             {
               step: 'STEP 1',
               title: 'アプリのインストール',
               description:
-                'Shopifyアプリストアから、「らくらく日本語フォント設定｜リテリア Font Picker」のインストールを行って下さい。',
+                'Shopifyアプリストアから、「よくある質問どこでも挿入｜ リテリア FAQ」のインストールを行って下さい。',
             },
             {
               step: 'STEP 2',
               title: '管理画面からアプリを有効化',
               description:
-                'アプリ管理画面の左側のメニューから、[ 日本語フォントを有効化 ]をクリックします。テーマのカスタマイズ画面が開きアプリが有効化されます。',
+                'アプリ管理画面の自動インストールより[ 有効化 ]をクリックします。自動インストールでは、お問い合わせページに自動で FAQ セクションが挿入されます。その他のページに FAQ を表示したい場合は、管理画面に記載の手動インストール手順を参考にしてください。',
             },
             {
               step: 'STEP 3',
-              title: '日本語フォントを選択',
+              title: 'テーマエディタで FAQ をカスタマイズ',
               description:
-                'テーマのカスタマイズ画面を見ながら、日本語フォントを選択してください。選択したあと、変更を保存すると日本語フォントがサイト表示に反映されます。',
+                'テーマのカスタマイズ画面を開き、FAQ セクションの質問・回答を入力していきます。また、デザインもセクション感覚でカスタマイズすることができます。',
             },
           ]}
         />
       </SectionBgColor>
 
       <AppealBelt
-        title1="リテリア Font Picker の"
+        title1="リテリア FAQ の"
         title2="導入はこちらから！"
-        title3="\ 2022年2月リリース！/"
+        title3="\ 2022年3月リリース！/"
         buttonText="今すぐ導入"
         text1=""
         text2=""
         link={APP_LIST_URL}
         bgColor="#666666"
-        btnColor="#BC002D"
+        btnColor="#00D9F5"
       />
     </Layout>
   );
